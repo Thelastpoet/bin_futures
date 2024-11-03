@@ -54,7 +54,7 @@ A simple python bot for Binance Futures that implements automated trading strate
    ```
    BINANCE_API_KEY=your_api_key
    BINANCE_API_SECRET=your_api_secret
-   TRADING_MODE=paper  # Options: paper, testnet, live
+   TRADING_MODE=paper  # Options: testnet, live
    ```
 
 
@@ -86,8 +86,7 @@ The bot will:
 
 ## Testing
 
-The bot supports three modes:
-- `paper`: Simulated trading with real market data
+The bot supports two modes:
 - `testnet`: Trading on Binance's test network
 - `live`: Live trading with real funds
 
